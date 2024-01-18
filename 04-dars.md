@@ -15,10 +15,10 @@ Shebang dasturni qanday turkumdaligini aniqlash uchun kodning boshiga qo'yiladi.
 
 ![ping-request](images/ping-request.png)
 
-`ping` host tirik yoki yo'qligini bilish uchun ishlatiladigan asosiy buyruqlardan biridir. Bu buyruq deyarli barcha Linux operatsion sistemalarida, jumladan Windows'da ham mavjud. 
+`ping` host tirik yoki yo'qligini bilish uchun ishlatiladigan asosiy buyruqlardan biridir. Bu buyruq deyarli barcha Linux operatsion sistemalarida, jumladan Windows'da ham mavjud.
 
 ```bash
-$ ping -c 5 google.com 
+$ ping -c 5 google.com
 ```
 
 bu yerda `-c` (count) ya'ni necha marta so'rov yuborish kerakligini belgilaydi aks holda `ping` serverga to'xtovsiz so'rov yuborib turadi .
@@ -33,9 +33,9 @@ $ cat ip.txt | grep "64 bytes"
 Bu yerda:
 - `ping` orqali "192.168.43.2" mahalliy IP manzilga 1 marta so'rov yuborib, natijani `ip.txt` fayl ichiga yo'naltirdik.
 - `cat` (concatinate) ya'ni bir nechta fayllarni bir-biriga ulash uchun xizmat qiladi, lekin ko'p odamlar shunchaki fayl kontentiga bir nazar solish uchun ishlatishadi.
-- `grep qidiruv_termin` ping so'rovidan kelgan javoblarni "qidiruv_termin" bo'yicha filterlaydi va faqat topilgan satrni ekranga chiqaradi. 
+- `grep qidiruv_termin` ping so'rovidan kelgan javoblarni "qidiruv_termin" bo'yicha filterlaydi va faqat topilgan satrni ekranga chiqaradi.
 
-Agar server 64 bayt malumot qaytarsa, uni ishlayotganiga ishonch hosil qilish mumkin.  Oddiydek tuyuladi, lekin bu jarayonni avtomatlashtirish orqali turli-xil amallarni bajarish mumkin, misol uchun, router'ga ulangan qurilmalarni filterlash va topilgan IP manzillar ustida nmap orqali zaifliklarni aniqlash. 
+Agar server 64 bayt malumot qaytarsa, uni ishlayotganiga ishonch hosil qilish mumkin.  Oddiydek tuyuladi, lekin bu jarayonni avtomatlashtirish orqali turli-xil amallarni bajarish mumkin, misol uchun, router'ga ulangan qurilmalarni filterlash va topilgan IP manzillar ustida nmap orqali zaifliklarni aniqlash.
 
 ## Linux - `cut`
 
@@ -47,10 +47,10 @@ $ cut -d " " -f 4
 
 ## Skriptni ishga tushirish
 
-Dasturni ishga tushirishdan avval *executable* ya'ni *bajarish* huquqi borligiga ishonch hosil qiling. 
+Dasturni ishga tushirishdan avval *executable* ya'ni *bajarish* huquqi borligiga ishonch hosil qiling.
 
 ```bash
-$ chmod +x script.sh 
+$ chmod +x script.sh
 $ ./script.sh
 ```
 
@@ -65,9 +65,9 @@ $ nmap -p 80,443 70.70.70.70
 Agar qandaydir xatolikga duch kelsangiz, nmap'ni qayta o'rnating:
 
 ```bash
-$ sudo apt install nmap -y 
+$ sudo apt install nmap -y
 ```
 
 P.S. `-y` (yes) optsiyasi dastur o'rnatish jarayonida har qanday so'rovlarga "ha" javobini beradi.
 
-[< 03-kun](03-dars.md) | [05-kun >](05-dars.md)
+[< 03-dars](03-dars.md) | [05-dars >](05-dars.md)

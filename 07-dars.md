@@ -33,9 +33,9 @@ $ ls
 file
 ```
 
-Joriy papkadan bitta yuqoriga chiqish uchun `cd ..` buyrug'i beriladi. 
+Joriy papkadan bitta yuqoriga chiqish uchun `cd ..` buyrug'i beriladi.
 
- - `cd .` - **1** nuqta joriy papkani o'zini anglatadi 
+ - `cd .` - **1** nuqta joriy papkani o'zini anglatadi
  - `cd ..` - **2** nuqta hozirgi papkadan bitta yuqoriga sakrashni bildiradi
 
 **P.S.** *`./papka/file` = `papka/file`*
@@ -58,6 +58,4 @@ $ cd ..
 >![cd-huh](images/cd-huh.png)
 
 
-[< 06-kun](06-dars.md) | [08-kun >](08-dars.md)
-
-
+[< 06-dars](06-dars.md) | [08-dars >](08-dars.md)

@@ -33,7 +33,7 @@ Quyidagi buyruq ko'zlangan natijani beradi:
 $ sudo systemctl disable apache2.service
 ```
 
-yoki 
+yoki
 
 ```bash
 $ sudo systemctl disable apache2
@@ -70,15 +70,15 @@ $ sudo nano /etc/systemd/system/myservice.service
 Endi esa fayl ichida ayrim zaruriy konfiguratsiyalarni yozishingiz kerak. Quyidagi shablonga nazar soling:
 
 ```
-[Unit] 
-Description=Oddiy xizmat 
-After=network.target 
+[Unit]
+Description=Oddiy xizmat
+After=network.target
 
-[Service] 
-ExecStart=/skript/manzili 
-Restart=always 
+[Service]
+ExecStart=/skript/manzili
+Restart=always
 
-[Install] 
+[Install]
 WantedBy=default.target
 ```
 
@@ -129,7 +129,4 @@ $ systemd-analyze
 
 ![install-linux](images/install-linux-meme.png)
 
-[< 08-kun](08-dars.md) | [10-kun >](10-dars.md)
-
-
-
+[< 08-dars](08-dars.md) | [10-dars >](10-dars.md)

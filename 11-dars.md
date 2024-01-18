@@ -99,10 +99,10 @@ Bu yerda:
 
 #### `gzip` yaratish
 
-`gzip` yaratish juda ham osson. 
+`gzip` yaratish juda ham osson.
 
 ```bash
-$ gzip katta_hajmdagi_fayl # natija - katta_hajmdagi_fayl.gz 
+$ gzip katta_hajmdagi_fayl # natija - katta_hajmdagi_fayl.gz
 ```
 
 birorta papkani siqish uchun avval `tar` orqali arxivlash zarur.
@@ -161,7 +161,7 @@ $ zip arxiv_nomi.zip papka/ -r
 Mavjud ZIP arxiviga `-u` (*update* ya'ni *yangilash*) optsiyasi yordamida yangi fayllar qo'shishingiz mumkin:
 
 ```bash
-$ zip -u arxiv_nomi.zip fayl1 fayl2 
+$ zip -u arxiv_nomi.zip fayl1 fayl2
 ```
 
 #### ZIP arxivining roʻyxati
@@ -199,4 +199,4 @@ $ curl cheat.sh/gunzip
 ```
 
 
-[< 10-kun](10-dars.md) | [12-kun >](12-dars.md)
+[< 10-dars](10-dars.md) | [12-dars >](12-dars.md)

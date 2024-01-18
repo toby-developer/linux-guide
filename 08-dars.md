@@ -1,5 +1,5 @@
 
-## Global o'zgaruvchilar 
+## Global o'zgaruvchilar
 
 Global o'zgaruvchilarni yodlash maqsadga muvofiq bo'ladi:
 
@@ -34,7 +34,7 @@ Izohlar asosan kod ichiga yoziladi. Ular manba kodini odamlarga tushunishni oson
 
 ```bash
 $ # lalalalalala
-$ 
+$
 ```
 
 Siz kommentlarni uzunroq buyruqlarning vazifalarini tushuntirish uchun ishlatishingiz mumkin:
@@ -77,18 +77,18 @@ echo $REPLY # kiritilgan malumotni chop etadi
 | `-u` | file descriptor | ["-u" optsiyasi ](https://www.baeldung.com/linux/read-command) |  |
 
 ``` bash
-#!/bin/bash 
+#!/bin/bash
 
-read -p 'Ismingni kirit bolam: ' name 
+read -p 'Ismingni kirit bolam: ' name
 
-read -sp 'Endi kodni kirit: ' password 
+read -sp 'Endi kodni kirit: ' password
 
-if [ "$password" == "1234" ] && [ "$name" == "Toshbolta" ]; then 
-   echo -e "\nTo'g'ri, sen xaqiqiy Toshboltasan!" 
-else 
-   echo -e "\nYo'q, sen Toshbolta emassanku." 
-fi 
-   
+if [ "$password" == "1234" ] && [ "$name" == "Toshbolta" ]; then
+   echo -e "\nTo'g'ri, sen xaqiqiy Toshboltasan!"
+else
+   echo -e "\nYo'q, sen Toshbolta emassanku."
+fi
+
 echo "" # Bo'sh qatorni bildiradi
 ```
 
@@ -138,7 +138,7 @@ echo "$INPUT" # G'alati    bo'shliqqa     ega qator.    .
 ```bash
 $ echo Galati   boshliqqa     ega  qator
 Galati boshliqqa ega qator
-$ echo '  Galati   boshliqqa   ega      qator' 
+$ echo '  Galati   boshliqqa   ega      qator'
   Galati   boshliqqa   ega      qator
 ```
 
@@ -167,4 +167,4 @@ $ sudo !! # bundan oldingi buyruqni '!!' o'rniga qo'yish kerakligini bildiradi
 $ sudo apt install nodejs
 ```
 
-[< 07-kun](07-dars.md) | [09-kun >](09-dars.md)
+[< 07-dars](07-dars.md) | [09-dars >](09-dars.md)

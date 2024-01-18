@@ -5,13 +5,13 @@ tags: ["tanishuv", "fayllar", "stdout", "permissions"]
 ---
 ## Linux-guide / Linux-qo'llanma
 
-Bu yerda, Linux va unga oid turli-xil dasturlar haqida ma'lumot ulashaman. Malumotlarni tartib bo'yicha yozishga harakat qilaman, lekin o'zimning yo'l xaritam mutlaqo tartibsiz. Qachondir yangi narsa o'rgansam, shu yerga qo'shib qo'yaman. Bu qo'llanma nafaqat yangi Linux foydalanuvchilari uchun, balki tajribali Tizim Administratorlari ham oz'lariga kerakli biror malumot topishlari mumkin deb o'ylayman. Umid qilamanki, ushbu qo'llanma sizga va albatta menga ham foydasi tegadi. 
+Bu yerda, Linux va unga oid turli-xil dasturlar haqida ma'lumot ulashaman. Malumotlarni tartib bo'yicha yozishga harakat qilaman, lekin o'zimning yo'l xaritam mutlaqo tartibsiz. Qachondir yangi narsa o'rgansam, shu yerga qo'shib qo'yaman. Bu qo'llanma nafaqat yangi Linux foydalanuvchilari uchun, balki tajribali Tizim Administratorlari ham oz'lariga kerakli biror malumot topishlari mumkin deb o'ylayman. Umid qilamanki, ushbu qo'llanma sizga va albatta menga ham foydasi tegadi.
 
 ## Salom Dunyo!
 
 ![Salom Dunyo](./images/salom-dunyo.jpg)
 
-Keling, an'anaga rioya qilgan holda "Salom Dunyo" kodini yozamiz. Terminal oynasini ochib quyidagi buyruqni kiriting. 
+Keling, an'anaga rioya qilgan holda "Salom Dunyo" kodini yozamiz. Terminal oynasini ochib quyidagi buyruqni kiriting.
 
 ```bash
 $ echo "Salom, dunyo!"
@@ -22,7 +22,7 @@ Salom, dunyo!
 
 ## Parolni o'zgartirish
 
-Linux'da joriy foydalanuvchining parolini o'zgartirish `passwd` (password) buyrug'i yordamida amalga oshiriladi. U birinchi navbatda avvalgi parolingizni so'raydi, to'g'ri kiritsangiz, parol yangilanadi. Agar buyruq **"root"** tomonidan berilsa,  u holda faqatgina **"root"** foydalanuvchisining paroli o'zgaradi. 
+Linux'da joriy foydalanuvchining parolini o'zgartirish `passwd` (password) buyrug'i yordamida amalga oshiriladi. U birinchi navbatda avvalgi parolingizni so'raydi, to'g'ri kiritsangiz, parol yangilanadi. Agar buyruq **"root"** tomonidan berilsa,  u holda faqatgina **"root"** foydalanuvchisining paroli o'zgaradi.
 
 ~~~bash
 $ passwd
@@ -118,7 +118,7 @@ mnt
 ...
 ```
 
-Yuqoridagi variant dasturchilarga qulayroq bo'lgani sababli, faylga huddi shunday tartibda yoziladi. O'ylab ko'ring, agar fayl nomlari qatorma-qator yozilsa, ularni manipulatsiya qilish ancha ossonroq bo'ladi. Ko'rinib turibdiki, ba'zi buyruqlarning natijalari faylga siz kutgandek yo'naltirilmaydi va buning ortida "yaxshiroq" sabab bor. 
+Yuqoridagi variant dasturchilarga qulayroq bo'lgani sababli, faylga huddi shunday tartibda yoziladi. O'ylab ko'ring, agar fayl nomlari qatorma-qator yozilsa, ularni manipulatsiya qilish ancha ossonroq bo'ladi. Ko'rinib turibdiki, ba'zi buyruqlarning natijalari faylga siz kutgandek yo'naltirilmaydi va buning ortida "yaxshiroq" sabab bor.
 
 ## StdOut'ni faylga yo'naltirish
 
@@ -197,12 +197,12 @@ $ locate hi2.txt
 
 **Sintaks:** *FAYL_TIPI + FOYDALANUVCHI_RUXSATLARI + GURUX_RUXSATLARI + BOSHQALAR*
 
-**Tiplar:** 
+**Tiplar:**
 - **D**: directory (papka)
 - **L**: link (havola)
 - **F**: file (fayl)
 
-**Misol:** 
+**Misol:**
 
 ```
 dr-xr-x---
@@ -212,7 +212,7 @@ Tablitsani yodlab olishni maslahat beraman - juda kerakli:
 
 ![permissions](./images/permissions.png)
 
-## Ruxsatlarni o'zgartirish 
+## Ruxsatlarni o'zgartirish
 
 Yuqoridagi tablitsaga qarab, faylni boshqa foydalanuvchilar tomonidan bajarilishi yoki o'qilishi mumkinligini belgilash. Faylni bajariladigan qilish quyidagicha:
 
@@ -231,7 +231,7 @@ $ chmod 600 shaxsiy.txt
 Hech kimga **o'qish+yozish+bajarish** ruxsatini bermang - bu juda katta xato.
 
 ```bash
-$ chmod 777 file.txt 
+$ chmod 777 file.txt
 
 yoki
 
@@ -299,13 +299,13 @@ Shuni yodda tutish kerakki, `man` ba'zi buyruqlar tavsifini chiqarmaydi, masalan
 3. **CTRL + K** - kursordan o'ngga tozalaydi
 4. **CTRL + A** - kursorni satr boshiga qo'yadi
 5. **CTRL + E** - kursorni satr oxiriga qo'yadi
-6. **CTRL + ALT + T** - yangi terminal oyna ochish 
+6. **CTRL + ALT + T** - yangi terminal oyna ochish
 7. **SUPER + TAB** - oynalarni tezkorlik bilan alishtirish
-8. **CTRL + ALT + ARROW_KEYS** 
+8. **CTRL + ALT + ARROW_KEYS**
 
 ## Linux buyruqlari - cheatsheet
 
-Ba'zi buyruqlar esingizdan chiqishi mumkin hattoki men ham ba'zan yozgan maqolalarimni o'qib turaman. 
+Ba'zi buyruqlar esingizdan chiqishi mumkin hattoki men ham ba'zan yozgan maqolalarimni o'qib turaman.
 
 **["cheatsheet" uchun xavola](./images/linux-commands-cheatsheet.png)**
 
@@ -314,10 +314,10 @@ $ alias cheatsheet="$(xdg-open '/.../cheatsheet.png')"
 ```
 
 > `alias` - o'zgaruvchi e'lon qiladi va asosan uzun buyruqlarni qisqartirish uchun ishlatiladi. Misol uchun, ob-havoni ko'rsatadigan qisqa buyruq:
-> `alias wtr='curl https://wttr.in/Fergana'` 
-> 
-> Agar buyruqni bir nechta terminal seanslarida ishlashini istasangiz, kodni uy manzilidagi `.bashrc` fayli ichiga qo'shib yozing. Darvoqe, `.bashrc` fayli bash terminal oynasi ochilganda birgalikda ishga tushadigan dastur hisoblanadi. 
+> `alias wtr='curl https://wttr.in/Fergana'`
+>
+> Agar buyruqni bir nechta terminal seanslarida ishlashini istasangiz, kodni uy manzilidagi `.bashrc` fayli ichiga qo'shib yozing. Darvoqe, `.bashrc` fayli bash terminal oynasi ochilganda birgalikda ishga tushadigan dastur hisoblanadi.
 
 
 
-[02-kun >](02-dars.md)
+[02-dars >](02-dars.md)

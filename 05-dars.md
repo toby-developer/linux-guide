@@ -7,7 +7,7 @@ tags:
 Siz https://cloud.google.com platformasida Linux'ni kompyuteringizga o'rnatmasdan bemalol ishlatishingiz mumkin:
 
 ```bash
-khumoyun@cloud:~$ neofetch 
+khumoyun@cloud:~$ neofetch
 ```
 
 ![Google Cloud Server](./images/google-cloud-server.png)
@@ -36,7 +36,7 @@ $ sudo apt install htop -y
 
 ## Dastur joylashuvini topish
 
-Sintaks: 
+Sintaks:
 
 ```bash
 $ whereis buyruq
@@ -53,8 +53,8 @@ aircrack-ng: /usr/bin/aircrack-ng /usr/include/aircrack-ng /usr/share/man/man1/a
 
 ![free-product-meme](images/free-product-meme.jpg)
 
-> **Pro maslahat:** 
+> **Pro maslahat:**
 > Buyruq haqida qo'shimcha malumot olish uchun ko'pincha `--help` yoki qisqacha `-h` optsiyasini ishlatishingiz mumkin. Misol uchun: `python --help`
- 
 
-[< 04-kun](04-dars.md) | [06-kun >](06-dars.md)
+
+[< 04-dars](04-dars.md) | [06-dars >](06-dars.md)

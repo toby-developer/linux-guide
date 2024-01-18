@@ -8,7 +8,7 @@ tags: ["xizmatlar"]
 Linux'ni o'rganar ekansiz, sizga IP manzillar, subnet, OSI Model,  TCP/UDP protokollar, tunel, port, xost kabi turli-xil tarmoqga oid terminlarga duch kelasiz. Shu sababli, ular haqida Internet'da yetarlicha "research" qilishingizni maslahat beraman. Muhimi, dangasa bo'lmang. Siz buni uddalaysiz! ;). Ba'zi terminlar:
 
 - Networking Fundamentals
-- CCNA course 
+- CCNA course
 - [Networking for dummies](https://edu.anarcho-copy.org/TCP%20IP%20-%20Network/Networking%20For%20Dummies.pdf) (kitob)
 - Network administration course
 - Network penetration testing course
@@ -23,14 +23,14 @@ $ ls
 fayl-1  fayl-2  fayl-3  fayl-4  fayl-5
 ```
 
-Barcha fayllarni o'chirish uchun "\*" belgisidan foydalanasiz. 
+Barcha fayllarni o'chirish uchun "\*" belgisidan foydalanasiz.
 
 ```bash
 $ rm *
 $ ls
 ```
 
->Ba'zan internetda `sudo rm -rf /` buyrug'i bilan "meme"larga duch kelasiz. Bu buyruq **sistemadagi barcha fayllarni o'chirib tashlaydi**, va bu qaytarib bo'lmas jarayon. 
+>Ba'zan internetda `sudo rm -rf /` buyrug'i bilan "meme"larga duch kelasiz. Bu buyruq **sistemadagi barcha fayllarni o'chirib tashlaydi**, va bu qaytarib bo'lmas jarayon.
 
 ![rm meme](./images/rm-meme.jpg)
 
@@ -47,11 +47,11 @@ Muqobil ravishda, [ifconfig.me](https://ifconfig.me) saytiga tashrif buyursangiz
 
 ## `service` va `systemctl`
 
-`service` va `systemctl` ikkalasi ham tizim xizmatlarini boshqarish uchun foydalaniladigan vositalardir. Ular xizmatlarni yoqish, o'chirish, qayta ishga tushirish usullarini taqdim etadi. Farqi, `systemctl` yanada keng xususiyatlarga ega va u xizmatlarni boshqarishning standart usuliga aylanib bormoqda. 
+`service` va `systemctl` ikkalasi ham tizim xizmatlarini boshqarish uchun foydalaniladigan vositalardir. Ular xizmatlarni yoqish, o'chirish, qayta ishga tushirish usullarini taqdim etadi. Farqi, `systemctl` yanada keng xususiyatlarga ega va u xizmatlarni boshqarishning standart usuliga aylanib bormoqda.
 
 >systemctl = new
 >
->service = old 
+>service = old
 
 ## Veb-server yaratish
 
@@ -130,11 +130,11 @@ Ko'rib turganingizdek, ssh-servis muvaffaqiyatli ishga tushdi. Endi siz istalgan
 $ ssh root@192.168.43.5
 password: ****
 successfully logged in as user "root"
-root~$ 
+root~$
 ```
 
 SSH haqida ko'proq ma'lumot olish uchun, quyidagi resurslar bilan tanishib chiqing:
- 
+
  - [SSH nima?](https://www.websiterating.com/uz/web-hosting/glossary/what-is-ssh/)
  - [Ubuntu'da SSH server o'rnatish](https://uz.termotools.com/8299-installing-ssh-server-in-ubuntu.html)
 
@@ -168,10 +168,10 @@ systemctl restart ssh
 ```
 
 ## Foydali bo'ladi
- 
+
  - **CTRL + C**  - ko'pincha script yoki terminaldagi dasturdan chiqish uchun qo'llaniladi.
  - **CTRL + D** - terminal yoki dasturdan chiqish uchun qo'llaniladi
  - **CTRL + SHIFT + C** - belgilangan matnni nusxalaydi
  - **CTRL + SHIFT + V** - nusxalangan matnni belgilangan joyga qo'yadi
 
-[< 02-kun](02-dars.md) | [04-kun >](04-dars.md)
+[< 02-dars](02-dars.md) | [04-dars >](04-dars.md)

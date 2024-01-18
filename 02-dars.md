@@ -8,13 +8,13 @@ tags: ["tarmoq"]
 Siz o'zingizning ichki IP manzilingizni Windows'dagi `ipconfig` buyrug'iga o'xshab ko'rishingiz mumkin:
 
 ```bash
-$ ifconfig 
+$ ifconfig
 ```
 
 Muayyan Wi-Fi adapteri haqida malumot olish:
 
 ```bash
-$ ifconfig wlan0 
+$ ifconfig wlan0
 ```
 
 ## Xost tirik yoki yo'qligini tekshirish
@@ -33,7 +33,7 @@ rtt min/avg/max/mdev = 0.030/0.036/0.040/0.004 ms
 
 localhost **127.0.0.1** bilan barobar. Ba'zilar `ping` buyrug'ini xostning IP manzilini aniqlash uchun ishlatadilar.
 
-> ping'dan chiqish uchun **CTRL + C** tugmalarini bosing yoki `ping -c 3 localhost` buyrug'ini bering va dastur serverga 3 marta so'rov yuboradi va tamomlagach dastudan avtomatik chiqib ketadi. 
+> ping'dan chiqish uchun **CTRL + C** tugmalarini bosing yoki `ping -c 3 localhost` buyrug'ini bering va dastur serverga 3 marta so'rov yuboradi va tamomlagach dastudan avtomatik chiqib ketadi.
 
 ## IP manzillarni MAC manzillari bilan bog'lash
 
@@ -126,7 +126,7 @@ Bu yerda:
 
    `-r` (recursive) optsiyasi:
         kataloglar va ularning tarkibidagi fayllarni o'chirish imkonini beradi. Ushbu parametr ifodalanmasa, `rm` kataloglarni emas, balki faqat individual fayllarni o'chiradi.
-        
+
    `-f` (force) optsiyasi:
         "majbur" ma'nosini bildiradi va agar `rm` kommandasi bilan birga qo'llanilganda, u ko'pgina ogohlantirish xabarlarni e'tibordan qoldiradi. Agar yozishdan himoyalangan yoki mavjud bo'lmagan fayllarni o'chirishga harakat qilsangiz, tasdiqlashni so'ramasdan davom ettirishga imkon beradi.
 
@@ -142,7 +142,7 @@ $ ls -l grass
 -rw-rw-r-- 1 khumoyun khumoyun 1044 Aug 12 05:16 grass
 ```
 
-## Linux - nano 
+## Linux - nano
 
 ![nano meme](./images/nano-meme.png)
 
@@ -152,13 +152,13 @@ $ ls -l grass
 $ nano hello-world.py
 ```
 
- - `nano` dasturidan chiqish uchun: **CTRL + X** 
+ - `nano` dasturidan chiqish uchun: **CTRL + X**
  - `nano` haqida ko'proq malumot olish uchun: `man nano`
 
 Agar `nano` kompyuteringizda o'rnatilmagan bo'lsa:
 
 ```bash
-sudo apt update 
+sudo apt update
 sudo apt upgrade
 sudo apt install nano
 ```
@@ -166,9 +166,9 @@ sudo apt install nano
 ## Samaradorlikni oshiring
 
 - **CTRL + SHIFT + T** (terminalda) -   terminalda yangi "tab" ochish
-- **ALT + F4** - aktiv oynani yopish 
+- **ALT + F4** - aktiv oynani yopish
 - **CTRL + TAB** (brovzerda) - tabni almashtirish
 - **CTRL + Pg Up** (brovzer + terminal) - tablarni almashtirish chapga/o'ngga
 - **ALT + 1..9** (brovzer + terminal) - tablarni indeks bo'ylab almashtirish
 
-[< 01-kun](01-dars.md) | [03-kun >](03-dars.md)
+[< 01-dars](01-dars.md) | [03-dars >](03-dars.md)

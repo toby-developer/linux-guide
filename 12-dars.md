@@ -8,7 +8,7 @@ Menda Windows Terminal - *Microsoft Store orqali o'rnatishingiz mumkin*
 
 ![windows-terminal-docker](images/windows-terminal-docker.png)
 
-`CTRL + ,` tugmalarini bosish orqali sozlamalar bo'limiga o'ting va standart profil sifatida **Command Prompt** ni tanlang chunki Powershell ancha sekin ishlaydi.  
+`CTRL + ,` tugmalarini bosish orqali sozlamalar bo'limiga o'ting va standart profil sifatida **Command Prompt** ni tanlang chunki Powershell ancha sekin ishlaydi.
 
 ![windows-terminal-cmd-default](images/windows-terminal-cmd-default.png)
 
@@ -16,9 +16,9 @@ Endi  **Profiles > Command Prompt** bo'limiga o'tib pastga biroz aylantirsangiz,
 
 ![windows-terminal-cmd-customization](images/windows-terminal-cmd-customization.png)
 
->Ko'pchilik Windows ishlatgani tufayli, Windows Terminaldan misol keltirdim. Lekin to'g'risini aytsam, Ubuntu kabi distributivlarda personallashtirish uchun bundanda ko'proq erkinlik beriladi. 
+>Ko'pchilik Windows ishlatgani tufayli, Windows Terminaldan misol keltirdim. Lekin to'g'risini aytsam, Ubuntu kabi distributivlarda personallashtirish uchun bundanda ko'proq erkinlik beriladi.
 
-Endi, dastlabki terminal oynasiga o'tib standart bash shell'dan zsh shell'ga o'tamiz - bu huddi CMD'dan Powershell'ga o'tganday gap. 
+Endi, dastlabki terminal oynasiga o'tib standart bash shell'dan zsh shell'ga o'tamiz - bu huddi CMD'dan Powershell'ga o'tganday gap.
 
 >Agar ba'zi buyruqlar sizga tushunarsiz bo'lsa, hammasi joyida! bu buyruqlar rasmiy veb-saytlarda shunchaki nusxalab & tashlash niyatida berilgan. Shunchaki jarayonni o'rganing va iloji bo'lsa buyruqlarni qo'lda yozib chiqing. Bu mushak xotirasini yaxshilaydi.
 
@@ -26,8 +26,8 @@ Endi, dastlabki terminal oynasiga o'tib standart bash shell'dan zsh shell'ga o't
 $ sudo apt install zsh curl git -y
 ```
 
-- `curl` orqali `ohmyzsh` dasturini tortib olamiz chunki u ilova menejerida mavjud emas. 
-- `git` orqali ayrim plaginlarni GitHub'dan tortib olamiz. 
+- `curl` orqali `ohmyzsh` dasturini tortib olamiz chunki u ilova menejerida mavjud emas.
+- `git` orqali ayrim plaginlarni GitHub'dan tortib olamiz.
 
 `ohmyzsh` o'rnatish:
 
@@ -49,7 +49,7 @@ Avval plaginni GitHub'dan klonlaymiz (avtomatik plaginni kerakli joyga klonlaydi
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-Menda yuqoridagi buyruq muvaffaqiyatli yakunlanganini ko'rishingiz mumkin:
+Menda yuqoridagi buyruq muvaffaqiyatli yadarslanganini ko'rishingiz mumkin:
 
 ![successfull clone](images/highlighter-plugin-success.png)
 
@@ -59,7 +59,7 @@ Plagin tayyor. Hammasi joyida. Endi faqat uni faollashtirish qoldi holos. Buni a
 $ nano ~/.zshrc
 ```
 
-Keling yo'l-yo'lakay temani o'zgartirib ketamiz - `ZSH_THEME`. Standart ravishda `robbyrussell` temasi tanlangan. Siz o'zingizga kerakli temani  [bu yerdan](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) topishingiz mumkin. Darvoqe, bu ortiqcha plagin talab qilmaydi - hammasi allaqachon kompyuteringizga o'rnatilgan! 
+Keling yo'l-yo'lakay temani o'zgartirib ketamiz - `ZSH_THEME`. Standart ravishda `robbyrussell` temasi tanlangan. Siz o'zingizga kerakli temani  [bu yerdan](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) topishingiz mumkin. Darvoqe, bu ortiqcha plagin talab qilmaydi - hammasi allaqachon kompyuteringizga o'rnatilgan!
 
 ![theme choosing](images/ohmyzsh-theme.png)
 
@@ -85,4 +85,4 @@ Manabuni terminal desa bo'ladi! 🔥
 
 Uddalagan bo'lsangiz hursandman - maqolamni o'zimdan boshqa kimdir tushunibdi 😁
 
-[< 11-kun](11-dars.md) | [13-kun >](13-dars.md)
+[< 11-dars](11-dars.md) | [13-dars >](13-dars.md)

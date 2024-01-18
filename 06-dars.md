@@ -11,7 +11,7 @@ Paket menejeri (package-manager) internetdan turli dasturlarni o'rnatish, kompyu
 
 ### 1. Kompyuterdagi barcha ilovalarni yangilash
 
-Tizim optimal ishlashi uchun mavjud dasturlarni kun-ora yangilab turish maqsadga muvofiq. Buyruq:
+Tizim optimal ishlashi uchun mavjud dasturlarni dars-ora yangilab turish maqsadga muvofiq. Buyruq:
 
 ```bash
 $ sudo apt update $$ sudo apt upgrade
@@ -45,13 +45,13 @@ Xuddi Windows'dagi "exe" fayllarni ustanovka qilgan singari ilovalarni `dpkg` yo
 $ sudo dpkg -i ilova.deb
 ```
 
- - `-i` (install) o'rnatish manosini bildiradi. 
+ - `-i` (install) o'rnatish manosini bildiradi.
 
 Agar sizda pastdagiga o'xshash muommo paydo bo'lsa, dastur uchun kerakli fayllar o'rnatilmaganini bildiradi:
 
 ![missing dependency](images/dependency-missing.png)
 
-Muommoni hal qilish uchun `apt` yordamida qaram dasturlarni birma-bir o'rnatish zarur. 
+Muommoni hal qilish uchun `apt` yordamida qaram dasturlarni birma-bir o'rnatish zarur.
 
 ### 3. Ilovalarni APT yordamida o'chirib tashlash
 
@@ -71,7 +71,7 @@ $ sudo apt remove vlc
 $ sudo apt search dastur-nomi
 ```
 
-## Qanday qilib ma'lum bir port bilan bog'langan dasturni topish mumkin? 
+## Qanday qilib ma'lum bir port bilan bog'langan dasturni topish mumkin?
 
 Buning uchun `lsof` (list-open-files) buyrug'ini "root" foydalanuvchi tomonidan beramiz. Mana bir misol:
 
@@ -93,7 +93,7 @@ $ sudo lsof -i:80
 
 Cloud serverlardan, yoki masofaviy kompyuterlarni boshqarayotganda sizga kompyuter nomi va versiya to'g'risidagi axborotlar kerak bo'ladi. Host kompyuter haqida malumot olishning ko'plab usullari bor, lekin biz faqat ayrimlarini ko'rib chiqamiz.
 
-### 1-usul 
+### 1-usul
 
 Unix'ga o'xshash operatsion tizimlardagi (jumladan, Linux) `/etc/` katalogi tizim va ilovalar uchun konfiguratsiya fayllarni va sozlamalarni ichiga oladi. `/etc` nomi "**et cetera**" ya'ni "**va hokazo**" degan ma'noni anglatadi. Katalog ichida kompyuterga bog'liq malumotlar ya'ni CPU, RAM, hosts, parollar va hokazolar fayl ko'rinishida saqlanadi. Operatsion sistema nomi va versiyalarini olish uchun `/etc/os-release` faylini o'qish kifoya.
 
@@ -129,7 +129,7 @@ Operating System: Ubuntu 22.04.3 LTS
     Architecture: x86-64
 ```
 
-### 4-usul 
+### 4-usul
 
 Bu usul `neofetch` dasturini o'rnatishni talab qiladi (taxminan `~130mb`, chunki `neofetch` ma'lumotlarni chiroyli tarzda ekranga chiqarish uchun turli kutubxonalardan foydalanadi.)
 
@@ -139,8 +139,8 @@ $ sudo apt install neofetch -y
 $ neofetch
 ```
 
-Natija: 
+Natija:
 
 ![neofetch](images/neofetch.png)
 
-[< 05-kun](05-dars.md) | [07-kun >](07-dars.md)
+[< 05-dars](05-dars.md) | [07-dars >](07-dars.md)

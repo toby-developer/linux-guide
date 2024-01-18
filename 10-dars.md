@@ -16,7 +16,7 @@ $ gsettings set org.gnome.mutter center-new-windows true
 **Maqsadi:** yangi ochilgan oynalarni doim monitor markazidan yaratadi. Kattaroq ekranlarda ishlasangiz ayni muddao.
 
 ```bash
-$ gsettings set org.gnome.desktop.wm.preferences focus-new-windows 'smart' 
+$ gsettings set org.gnome.desktop.wm.preferences focus-new-windows 'smart'
 ```
 
 **Maqsadi:** agar siz biron dasturda ishlab turib, chap dock paneldan bironta dasturni ochsangiz, uni ochish o'rniga *Window is ready!* degan eslatmadan sizni xalos qiladi.
@@ -30,7 +30,7 @@ $ sudo apt install ubuntu-restricted-extras
 Agar siz dasturchi bo'lsangiz va kompilyator va dasturlashga oid dasturlarni ishga tushirishda sizda har bir kerakli paketlarni birma-bir o'rnatib chiqishni xoxlamasangiz:
 
 ```bash
-$ sudo apt install build-essential 
+$ sudo apt install build-essential
 ```
 
 Aytgancha agar siz Ubuntu'da bo'lsangiz va `AppImage` turidagi dasturlarni internetdan yuklab olib ishga tushirmoqchi bo'lsangiz shunchaki xatolik haqida xabar ham chiqmaydi va dastur ishga ham tushmaydi, buni faqat terminalda ko'rib to'g'rilab olish mumkin. Mening holatimda Jetbrains Toolbox ilovasi bilan shunday holat yuz beradi doim. Sizni ortiqcha Googlelash va asablarni yo'qotishdan xalos etish uchun bir qator kod aytaman:
@@ -55,7 +55,7 @@ $ sudo nano /etc/apt/sources.list
 
 >Grafikda ishlayotgan bo'lsangiz, `gedit` dasturini ishlatishingiz mumkin.
 
-`deb` yoki `deb-src` bilan boshlanadigan qatorlarni va URL manzillarni qidiring (bizning vaziyatda `uz.archive.ubuntu.com`). URL manzillarni standart URL (`archive.ubuntu.com`) bilan almashtiring. 
+`deb` yoki `deb-src` bilan boshlanadigan qatorlarni va URL manzillarni qidiring (bizning vaziyatda `uz.archive.ubuntu.com`). URL manzillarni standart URL (`archive.ubuntu.com`) bilan almashtiring.
 
 Eski:
 
@@ -86,4 +86,4 @@ $ sudo apt update
 
 **P.S.** *Asl maqola [Vodiylik Aka](https://t.me/vodiylik) tomonidan yozilgan. Raxmat!*
 
-[< 09-kun](09-dars.md) | [11-kun >](11-dars.md)
+[< 09-dars](09-dars.md) | [11-dars >](11-dars.md)

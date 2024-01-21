@@ -15,7 +15,7 @@ $ echo "Salom, dunyo!"
 Salom, dunyo!
 ```
 
->Terminal oynasini tezkor ochish - `CTRL` + `ALT` + `T`
+>Terminal oynasini tezkor ochish (Ubuntu): `CTRL` + `ALT` + `T`
 
 ## Parolni o'zgartirish
 

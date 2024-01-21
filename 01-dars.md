@@ -17,7 +17,7 @@ Salom, dunyo!
 
 >Terminal oynasini tezkor ochish (Ubuntu): `CTRL` + `ALT` + `T`
 
-## Parolni o'zgartirish
+## Parolni yangilash
 
 Linux'da joriy foydalanuvchining parolini o'zgartirish `passwd` (password) buyrug'i yordamida amalga oshiriladi. U birinchi navbatda avvalgi parolingizni so'raydi, to'g'ri kiritsangiz, parol yangilanadi. Agar buyruq **"root"** tomonidan berilsa,  u holda faqatgina **"root"** foydalanuvchisining paroli o'zgaradi.
 

@@ -3,9 +3,6 @@
 tags: ["tanishuv", "fayllar", "stdout", "permissions"]
 
 ---
-## Linux-guide / Linux-qo'llanma
-
-Bu yerda, Linux va unga oid turli-xil dasturlar haqida ma'lumot ulashaman. Malumotlarni tartib bo'yicha yozishga harakat qilaman, lekin o'zimning yo'l xaritam mutlaqo tartibsiz. Qachondir yangi narsa o'rgansam, shu yerga qo'shib qo'yaman. Bu qo'llanma nafaqat yangi Linux foydalanuvchilari uchun, balki tajribali Tizim Administratorlari ham oz'lariga kerakli biror malumot topishlari mumkin deb o'ylayman. Umid qilamanki, ushbu qo'llanma sizga va albatta menga ham foydasi tegadi.
 
 ## Salom Dunyo!
 
